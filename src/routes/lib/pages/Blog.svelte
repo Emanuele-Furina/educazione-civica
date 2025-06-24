@@ -1,4 +1,6 @@
 <script>
+  import { base } from '$app/paths';
+  
   const articles = [
     {
       id: 'pena-di-morte',
@@ -7,7 +9,7 @@
       date: "29 Dicembre 2022",
       category: "Letteratura",
       readTime: "12 min",
-      image: "/images/sedia-elettrica.jpeg"
+      image: `${base}/images/sedia-elettrica.jpeg`
     },
     {
       id: 'storia-mafia',
@@ -16,7 +18,7 @@
       date: "22 Marzo 2022",
       category: "Storia",
       readTime: "15 min",
-      image: "/images/falcone.jpeg"
+      image: `${base}/images/falcone.jpeg`
     },
     {
       id: 'violenza-genere',
@@ -25,7 +27,7 @@
       date: "30 Novembre 2022",
       category: "Società",
       readTime: "10 min",
-      image: "/images/violenza_donne.jpg"
+      image: `${base}/images/violenza_donne.jpg`
     },
     {
       id: 'war-poetry',
@@ -34,7 +36,7 @@
       date: "27 Maggio 2025",
       category: "Letteratura",
       readTime: "8 min",
-      image: "/images/war-poetry.jpg"
+      image: `${base}/images/war-poetry.jpg`
     },
     {
       id: 'carcere-speranza',
@@ -43,7 +45,7 @@
       date: "27 Marzo 2023",
       category: "Società",
       readTime: "9 min",
-      image: "/images/carcere.png"
+      image: `${base}/images/carcere.png`
     }
   ];
 
