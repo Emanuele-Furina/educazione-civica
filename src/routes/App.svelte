@@ -14,6 +14,7 @@
 
   let currentPage = $state('home');
 
+  // @ts-ignore
   function navigateTo(page) {
     currentPage = page;
     // Update URL without page reload for GitHub Pages compatibility

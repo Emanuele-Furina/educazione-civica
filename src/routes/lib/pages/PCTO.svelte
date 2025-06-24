@@ -21,7 +21,7 @@
           <span class="text-2xl">⏱️</span>
         </div>
         <h3 class="font-semibold mb-2">Ore Totali</h3>
-        <p class="text-gray-600">120 ore</p>
+        <p class="text-gray-600">+150 ore</p>
       </div>
       
       <div class="text-center">
@@ -29,16 +29,16 @@
           <span class="text-2xl">🏢</span>
         </div>
         <h3 class="font-semibold mb-2">Enti Partner</h3>
-        <p class="text-gray-600">3 organizzazioni</p>
+        <p class="text-gray-600">2 organizzazioni</p>
       </div>
       
-      <div class="text-center">
+      <!-- <div class="text-center">
         <div class="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-3">
           <span class="text-2xl">🎯</span>
         </div>
         <h3 class="font-semibold mb-2">Competenze</h3>
         <p class="text-gray-600">15 acquisite</p>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -116,4 +116,5 @@
       <li>Approfondire tematiche legate alla cittadinanza digitale e ai diritti online</li>
     </ul>
   </div> -->
+  </div>
 </div>
