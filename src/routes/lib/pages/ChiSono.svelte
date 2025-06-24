@@ -18,7 +18,7 @@
         </span>
       </h1>
       <p class="text-xl text-gray-600 leading-relaxed">
-        Studente di 5° anno - Sviluppatore full-stack appassionato di tecnologie moderne
+        Studente del 5° anno
       </p>
     </div>
   </div>
@@ -29,19 +29,19 @@
     <div class="prose prose-gray max-w-none">
       <p class="text-gray-600 mb-4 leading-relaxed text-lg">
         Sono Emanuele Furina, uno studente del quinto anno con una grande passione per lo sviluppo 
-        full-stack e le tecnologie moderne. Il mio percorso di studi mi ha portato ad approfondire 
+        software e le tecnologie moderne. Il mio percorso di studi mi ha portato ad approfondire 
         non solo gli aspetti tecnici dell'informatica, ma anche i temi fondamentali dell'educazione 
         civica e della cittadinanza digitale.
       </p>
-      <p class="text-gray-600 mb-4 leading-relaxed text-lg">
+      <!-- <p class="text-gray-600 mb-4 leading-relaxed text-lg">
         Credo fermamente nell'importanza di coniugare competenze tecniche con una solida formazione 
         civica, per diventare non solo un professionista competente, ma anche un cittadino consapevole 
         e responsabile nel mondo digitale di oggi.
-      </p>
-      <p class="text-gray-600 leading-relaxed text-lg">
+      </p> -->
+      <!-- <p class="text-gray-600 leading-relaxed text-lg">
         Questo portfolio rappresenta il mio percorso di crescita nell'ambito dell'educazione civica, 
         documentando riflessioni, progetti e competenze acquisite durante l'ultimo anno di studi.
-      </p>
+      </p> -->
     </div>
   </div>
 
@@ -51,7 +51,7 @@
       <h3 class="text-2xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Competenze Tecniche</h3>
       <div class="space-y-4">
         <div class="flex items-center justify-between">
-          <span class="text-gray-700 font-medium">Sviluppo Full-Stack</span>
+          <span class="text-gray-700 font-medium">Sviluppo Lua</span>
           <div class="flex space-x-1">
             {#each Array(5) as _, i}
               <div class="w-3 h-3 rounded-full transition-all duration-300 {i < 4 ? 'bg-gradient-to-r from-blue-500 to-purple-500 shadow-lg' : 'bg-gray-200'}"></div>
@@ -85,7 +85,7 @@
       </div>
     </div>
 
-    <div class="bg-white/70 backdrop-blur-sm rounded-3xl shadow-xl border border-white/20 p-8 hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
+    <!-- <div class="bg-white/70 backdrop-blur-sm rounded-3xl shadow-xl border border-white/20 p-8 hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
       <h3 class="text-2xl font-bold mb-6 bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">Interessi Civici</h3>
       <div class="space-y-4">
         <div class="flex items-center space-x-4 p-3 rounded-xl bg-white/50 hover:bg-white/80 transition-all duration-300">
@@ -110,7 +110,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Education & Goals -->
   <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
@@ -118,19 +118,19 @@
     <div class="space-y-6">
       <div class="border-l-4 border-blue-500 pl-6">
         <h3 class="text-lg font-semibold text-gray-900">Diploma di Maturità</h3>
-        <p class="text-gray-600">Istituto Tecnico Informatico - 2024</p>
+        <p class="text-gray-600">Istituto Tecnico Informatico - 2025</p>
         <p class="text-sm text-gray-500 mt-2">
           Specializzazione in informatica con approfondimenti in educazione civica e cittadinanza digitale
         </p>
       </div>
       
-      <div class="border-l-4 border-green-500 pl-6">
+      <!-- <div class="border-l-4 border-green-500 pl-6">
         <h3 class="text-lg font-semibold text-gray-900">Certificazioni</h3>
         <p class="text-gray-600">Competenze digitali e cittadinanza</p>
         <p class="text-sm text-gray-500 mt-2">
           Certificazioni in ambito digitale e partecipazione a corsi di formazione civica
         </p>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -147,12 +147,12 @@
           </li>
           <li class="flex items-center space-x-2">
             <span class="text-green-500">✓</span>
-            <span>Specializzazione in sviluppo web</span>
+            <span>Specializzazione in Cybersecurity o Forensica digitale</span>
           </li>
-          <li class="flex items-center space-x-2">
+          <!-- <li class="flex items-center space-x-2">
             <span class="text-green-500">✓</span>
             <span>Esperienza in aziende tech</span>
-          </li>
+          </li> -->
         </ul>
       </div>
       
@@ -176,7 +176,7 @@
     </div>
   </div>
 
-  <!-- Contact migliorato -->
+  <!-- Contact migliorato
   <div class="text-center mt-16 p-8 bg-gradient-to-r from-blue-50 to-purple-50 rounded-3xl shadow-xl border border-white/20">
     <h2 class="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Contatti</h2>
     <p class="text-gray-600 mb-8 text-lg leading-relaxed">
@@ -202,6 +202,7 @@
         </span>
       </button>
     </div>
+  </div> -->
   </div>
 </div>
 

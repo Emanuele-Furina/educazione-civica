@@ -2,67 +2,27 @@
   const masterpieces = [
     {
       id: 1,
-      title: "Analisi Comparativa delle Costituzioni Europee",
-      type: "Ricerca",
-      description: "Studio approfondito che confronta i principi fondamentali delle costituzioni di Italia, Francia, Germania e Spagna, evidenziando similitudini e differenze nell'approccio ai diritti fondamentali.",
-      date: "Marzo 2024",
+      title: "Creazione e Gesitone server FiveM",
+      type: "Informatica",
+      description: "Creazione, programmazione e gestione di un server RP",
+      date: "2023-2025",
       image: "/placeholder.svg?height=300&width=400",
-      tags: ["Costituzione", "Europa", "Diritti"],
+      tags: ["Informatica", "Programmazione", "Giochi"],
       link: "#"
     },
     {
       id: 2,
-      title: "Progetto Multimediale: La Cittadinanza Digitale",
-      type: "Progetto Multimediale",
-      description: "Creazione di un sito web interattivo e di video informativi sui rischi e le opportunità del mondo digitale, con focus su privacy, fake news e partecipazione democratica online.",
-      date: "Febbraio 2024",
+      title: "Piattaforma Find My Tutor",
+      type: "Sociale",
+      description: "Gestione della piattaforma Find My Tutor",
+      date: "2024-2025",
       image: "/placeholder.svg?height=300&width=400",
-      tags: ["Digitale", "Media", "Partecipazione"],
-      link: "#"
-    },
-    {
-      id: 3,
-      title: "Saggio: L'Evoluzione del Concetto di Cittadinanza",
-      type: "Saggio",
-      description: "Elaborato che traccia l'evoluzione storica del concetto di cittadinanza dall'antica Grecia ai giorni nostri, con particolare attenzione alle sfide della globalizzazione.",
-      date: "Gennaio 2024",
-      image: "/placeholder.svg?height=300&width=400",
-      tags: ["Storia", "Filosofia", "Globalizzazione"],
-      link: "#"
-    },
-    {
-      id: 4,
-      title: "Presentazione: Agenda 2030 e Sviluppo Sostenibile",
-      type: "Presentazione",
-      description: "Presentazione interattiva sui 17 obiettivi dell'Agenda 2030 dell'ONU, con analisi delle politiche italiane ed europee per lo sviluppo sostenibile.",
-      date: "Dicembre 2023",
-      image: "/placeholder.svg?height=300&width=400",
-      tags: ["Sostenibilità", "ONU", "Ambiente"],
-      link: "#"
-    },
-    {
-      id: 5,
-      title: "Podcast: Voci della Democrazia",
-      type: "Podcast",
-      description: "Serie di episodi podcast che esplorano temi democratici attraverso interviste a esperti, cittadini e rappresentanti delle istituzioni locali.",
-      date: "Novembre 2023",
-      image: "/placeholder.svg?height=300&width=400",
-      tags: ["Audio", "Democrazia", "Interviste"],
-      link: "#"
-    },
-    {
-      id: 6,
-      title: "Infografica: Il Sistema Elettorale Italiano",
-      type: "Infografica",
-      description: "Rappresentazione visuale del complesso sistema elettorale italiano, dalle elezioni politiche a quelle amministrative, con spiegazioni chiare e accessibili.",
-      date: "Ottobre 2023",
-      image: "/placeholder.svg?height=300&width=400",
-      tags: ["Elezioni", "Grafica", "Sistema politico"],
+      tags: ["Digitale","Innovazione"],
       link: "#"
     }
   ];
 
-  const types = ["Tutti", "Ricerca", "Progetto Multimediale", "Saggio", "Presentazione", "Podcast", "Infografica"];
+  const types = ["Informatica", "Sociale"];
   let selectedType = $state("Tutti");
 
   const filteredMasterpieces = $derived(
