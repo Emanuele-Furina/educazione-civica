@@ -7,7 +7,7 @@
       date: "29 Dicembre 2022",
       category: "Letteratura",
       readTime: "12 min",
-      image: "/placeholder.svg?height=200&width=400"
+      image: "/images/pena-di-morte.jpg"
     },
     {
       id: 'storia-mafia',
@@ -16,7 +16,7 @@
       date: "22 Marzo 2022",
       category: "Storia",
       readTime: "15 min",
-      image: "/placeholder.svg?height=200&width=400"
+      image: "/images/storia-mafia.jpg"
     },
     {
       id: 'violenza-genere',
@@ -25,7 +25,7 @@
       date: "30 Novembre 2022",
       category: "Società",
       readTime: "10 min",
-      image: "/placeholder.svg?height=200&width=400"
+      image: "/images/violenza-genere.jpg"
     },
     {
       id: 'war-poetry',
@@ -34,7 +34,7 @@
       date: "27 Maggio 2025",
       category: "Letteratura",
       readTime: "8 min",
-      image: "/placeholder.svg?height=200&width=400"
+      image: "/images/war-poetry.jpg"
     },
     {
       id: 'carcere-speranza',
@@ -43,7 +43,7 @@
       date: "27 Marzo 2023",
       category: "Società",
       readTime: "9 min",
-      image: "/placeholder.svg?height=200&width=400"
+      image: "/images/carcere-speranza.jpg"
     }
   ];
 
