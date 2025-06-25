@@ -6,8 +6,8 @@
     </div>
 
     <div class="relative">
-      <div class="w-40 h-40 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-full mx-auto mb-8 flex items-center justify-center shadow-2xl shadow-blue-500/25 animate-bounce-slow">
-        <span class="text-6xl text-white">👤</span>
+      <div class="w-40 h-40 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-full mx-auto mb-8 flex items-center justify-center shadow-2xl shadow-blue-500/25 animate-bounce-slow overflow-hidden">
+        <img src="/images/me.jpg" alt="" class="w-full h-full object-cover rounded-full">
       </div>
       
       <h1 class="text-5xl font-bold mb-4">
