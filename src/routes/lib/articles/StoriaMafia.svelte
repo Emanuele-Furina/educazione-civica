@@ -3,7 +3,6 @@
 </script>
 
 <article class="max-w-4xl mx-auto">
-  <!-- Header dell'articolo -->
   <header class="mb-12">
     <button 
       onclick={() => navigateTo('blog')}
@@ -32,7 +31,6 @@
     </div>
   </header>
 
-  <!-- Contenuto dell'articolo -->
   <div class="prose prose-lg max-w-none space-y-8">
     <div class="bg-white/70 backdrop-blur-sm rounded-3xl shadow-xl border border-white/20 p-8">
       <h2 class="text-3xl font-bold mb-6 bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">
@@ -111,7 +109,6 @@
         Il <strong>9 maggio 1978</strong>, a soli trent'anni, Peppino viene assassinato con una carica di tritolo. Il suo corpo viene fatto saltare sui binari della ferrovia per simulare un incidente o un suicidio. Solo anni dopo, grazie alle battaglie della madre Felicia Bartolotta e del Centro Siciliano di Documentazione "Giuseppe Impastato", la verità emerge: Peppino è stato ucciso dalla mafia per le sue denunce.
       </p>
 
-      <!-- Video embed -->
       <div class="bg-white/50 rounded-2xl p-6 mt-6">
         <div class="aspect-video">
           <iframe 
@@ -165,7 +162,6 @@
     </div>
   </div>
 
-  <!-- Navigation footer -->
   <footer class="mt-16 pt-8 border-t border-gray-200">
     <div class="flex justify-between items-center">
       <button 

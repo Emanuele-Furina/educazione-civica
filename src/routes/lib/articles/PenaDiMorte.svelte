@@ -3,7 +3,6 @@
 </script>
 
 <article class="max-w-4xl mx-auto">
-  <!-- Header dell'articolo -->
   <header class="mb-12">
     <button 
       onclick={() => navigateTo('blog')}
@@ -32,7 +31,6 @@
     </div>
   </header>
 
-  <!-- Contenuto dell'articolo -->
   <div class="prose prose-lg max-w-none">
     <div class="bg-white/70 backdrop-blur-sm rounded-3xl shadow-xl border border-white/20 p-8 mb-8">
       <h2 class="text-3xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -117,7 +115,6 @@
         <em>L'ultimo giorno di un condannato a morte</em> ci lascia una lezione semplice e potente: <strong>ogni essere umano ha diritto alla vita e alla dignità</strong>, anche quando ha sbagliato. La giustizia non può trasformarsi in vendetta. E la letteratura, in questo senso, ha un potere immenso: quello di ridare voce a chi l'ha persa, di mostrare ciò che la legge, a volte, ignora.
       </p>
 
-      <!-- Video embed -->
       <div class="bg-white/50 rounded-2xl p-6 mb-6">
         <div class="aspect-video">
           <iframe 
@@ -140,7 +137,6 @@
     </div>
   </div>
 
-  <!-- Navigation footer -->
   <footer class="mt-16 pt-8 border-t border-gray-200">
     <div class="flex justify-between items-center">
       <button 

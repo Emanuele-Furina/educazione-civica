@@ -38,7 +38,6 @@
         {/each}
       </div>
 
-      <!-- Mobile menu button con animazione -->
       <div class="md:hidden">
         <button class="text-gray-600 hover:text-gray-900 p-2 rounded-lg hover:bg-white/50 transition-all duration-300" aria-label="Open Menu">
           <svg class="h-6 w-6 transform hover:rotate-90 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -48,7 +47,6 @@
       </div>
     </div>
 
-    <!-- Mobile menu migliorato -->
     <div class="md:hidden border-t border-white/20 bg-white/95 backdrop-blur-sm">
       <div class="px-2 pt-2 pb-3 space-y-1">
         {#each navItems as item}

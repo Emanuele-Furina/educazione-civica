@@ -67,7 +67,6 @@
 
 <div class="max-w-6xl mx-auto">
   <div class="text-center mb-16 relative">
-    <!-- Elemento decorativo -->
     <div
       class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4 w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"
     ></div>
@@ -85,7 +84,6 @@
     </p>
   </div>
 
-  <!-- Category Filter migliorato -->
   <div class="flex flex-wrap justify-center gap-3 mb-16">
     {#each categories as category}
       <button
@@ -100,7 +98,6 @@
     {/each}
   </div>
 
-  <!-- Articles Grid migliorato -->
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
     {#each filteredArticles as article}
       <article

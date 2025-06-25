@@ -6,6 +6,7 @@
   import PCTO from './lib/pages/PCTO.svelte';
   import Capolavori from './lib/pages/Capolavori.svelte';
   import ChiSono from './lib/pages/ChiSono.svelte';
+  import Fivem from './lib/pages/Fivem.svelte';
   import PenaDiMorte from './lib/articles/PenaDiMorte.svelte';
   import StoriaMafia from './lib/articles/StoriaMafia.svelte';
   import ViolenzaGenere from './lib/articles/ViolenzaGenere.svelte';
@@ -17,15 +18,13 @@
   // @ts-ignore
   function navigateTo(page) {
     currentPage = page;
-    // Update URL without page reload for GitHub Pages compatibility
     window.history.pushState({}, '', `#${page}`);
   }
 
   onMount(() => {
-    // Handle initial page load and browser back/forward
     const handleHashChange = () => {
       const hash = window.location.hash.slice(1);
-      const validPages = ['home', 'blog', 'pcto', 'capolavori', 'chi-sono'];
+      const validPages = ['home', 'blog', 'pcto', 'capolavori', 'chi-sono', 'fivem'];
       const validArticles = ['pena-di-morte', 'storia-mafia', 'violenza-genere', 'war-poetry', 'carcere-speranza'];
     
       if (hash && (validPages.includes(hash) || validArticles.includes(hash))) {
@@ -48,15 +47,17 @@
   <main class="container mx-auto px-4 py-8">
     <div class="animate-fade-in">
       {#if currentPage === 'home'}
-        <Home />
+        <Home {navigateTo}/>
       {:else if currentPage === 'blog'}
         <Blog {navigateTo} />
       {:else if currentPage === 'pcto'}
         <PCTO />
       {:else if currentPage === 'capolavori'}
-        <Capolavori />
+        <Capolavori {navigateTo}/>
       {:else if currentPage === 'chi-sono'}
         <ChiSono />
+      {:else if currentPage === 'fivem'}
+        <Fivem {navigateTo}/>
       {:else if currentPage === 'pena-di-morte'}
         <PenaDiMorte {navigateTo} />
       {:else if currentPage === 'storia-mafia'}
@@ -75,9 +76,9 @@
     <div class="container mx-auto px-4 py-8 text-center text-gray-600">
       <div class="flex items-center justify-center space-x-2 mb-4">
         <span class="text-2xl">🎓</span>
-        <span class="font-semibold">Educazione Civica Portfolio</span>
+        <span class="font-semibold">Portfolio digitale di Educazione Civica</span>
       </div>
-      <p>&copy; 2024 Emanuele Furina - Realizzato con ❤️ e Svelte</p>
+      <p>&copy; 2025 Emanuele Furina - Realizzato con ❤️ e Svelte</p>
     </div>
   </footer>
 </div>

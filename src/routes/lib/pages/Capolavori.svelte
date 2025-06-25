@@ -1,4 +1,5 @@
 <script>
+  let { navigateTo } = $props();
   const masterpieces = [
     {
       id: 1,
@@ -6,9 +7,9 @@
       type: "Informatica",
       description: "Creazione, programmazione e gestione di un server RP",
       date: "2023-2025",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/images/fivem.png",
       tags: ["Informatica", "Programmazione", "Giochi"],
-      link: "#"
+      link: "fivem"
     },
     {
       id: 2,
@@ -16,13 +17,13 @@
       type: "Sociale",
       description: "Gestione della piattaforma Find My Tutor",
       date: "2024-2025",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/images/find.jpg",
       tags: ["Digitale","Innovazione"],
-      link: "#"
+      link: "https://findmytutor.agnelli.it"
     }
   ];
 
-  const types = ["Informatica", "Sociale"];
+  const types = ["Tutti", "Informatica", "Sociale"];
   let selectedType = $state("Tutti");
 
   const filteredMasterpieces = $derived(
@@ -30,6 +31,17 @@
       ? masterpieces 
       : masterpieces.filter(item => item.type === selectedType)
   );
+
+  // @ts-ignore
+  function openProject(link) {
+    if (link && link !== "#") {
+      if (link.startsWith('http')) {
+        window.open(link, '_blank');
+      } else {
+        navigateTo(link);
+      }
+    }
+  }
 </script>
 
 <div class="max-w-6xl mx-auto">
@@ -40,7 +52,6 @@
     </p>
   </div>
 
-  <!-- Type Filter -->
   <div class="flex flex-wrap justify-center gap-2 mb-12">
     {#each types as type}
       <button
@@ -55,10 +66,9 @@
     {/each}
   </div>
 
-  <!-- Masterpieces Grid -->
-  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div class="flex flex-wrap justify-center gap-8">
     {#each filteredMasterpieces as item}
-      <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow">
+      <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow w-full max-w-sm">
         <img 
           src={item.image || "/placeholder.svg"} 
           alt={item.title}
@@ -88,8 +98,13 @@
             {/each}
           </div>
           
-          <button class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors text-sm font-medium">
-            Visualizza Progetto
+          <button 
+            onclick={() => openProject(item.link)}
+            class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors text-sm font-medium
+                   {item.link === '#' ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}"
+            disabled={item.link === '#'}
+          >
+            {item.link === '#' ? 'Progetto Non Disponibile' : 'Visualizza Progetto'}
           </button>
         </div>
       </div>
@@ -101,27 +116,4 @@
       <p class="text-gray-500 text-lg">Nessun capolavoro trovato per questa categoria.</p>
     </div>
   {/if}
-
-  <!-- Achievement Stats -->
-  <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-8 mt-16">
-    <h2 class="text-2xl font-semibold text-center mb-8">Risultati Raggiunti</h2>
-    <div class="grid md:grid-cols-4 gap-6 text-center">
-      <div>
-        <div class="text-3xl font-bold text-blue-600 mb-2">6</div>
-        <p class="text-gray-600">Progetti Completati</p>
-      </div>
-      <div>
-        <div class="text-3xl font-bold text-green-600 mb-2">15</div>
-        <p class="text-gray-600">Competenze Sviluppate</p>
-      </div>
-      <div>
-        <div class="text-3xl font-bold text-purple-600 mb-2">4</div>
-        <p class="text-gray-600">Tipologie di Media</p>
-      </div>
-      <div>
-        <div class="text-3xl font-bold text-orange-600 mb-2">100+</div>
-        <p class="text-gray-600">Ore di Lavoro</p>
-      </div>
-    </div>
-  </div>
 </div>

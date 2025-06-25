@@ -3,7 +3,6 @@
 </script>
 
 <article class="max-w-4xl mx-auto">
-  <!-- Header dell'articolo -->
   <header class="mb-12">
     <button 
       onclick={() => navigateTo('blog')}
@@ -32,7 +31,6 @@
     </div>
   </header>
 
-  <!-- Contenuto dell'articolo -->
   <div class="prose prose-lg max-w-none space-y-8">
     <div class="bg-white/70 backdrop-blur-sm rounded-3xl shadow-xl border border-white/20 p-8">
       <h2 class="text-3xl font-bold mb-6 bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
@@ -125,7 +123,6 @@
         La <strong>memoria</strong> ha un ruolo centrale. Ricordare le vittime di femminicidio, conoscere i loro nomi e le loro storie, non è solo un atto di rispetto, ma anche un modo per mantenere viva la coscienza collettiva. Gli archivi digitali, come quelli dell'UDI, servono a farci capire quanto è stato fatto, ma anche quanto resta ancora da fare.
       </p>
 
-      <!-- Video embed -->
       <div class="bg-white/50 rounded-2xl p-6 mb-6">
         <div class="aspect-video">
           <iframe 
@@ -152,7 +149,6 @@
     </div>
   </div>
 
-  <!-- Navigation footer -->
   <footer class="mt-16 pt-8 border-t border-gray-200">
     <div class="flex justify-between items-center">
       <button 

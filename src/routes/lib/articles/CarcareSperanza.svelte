@@ -3,7 +3,6 @@
 </script>
 
 <article class="max-w-4xl mx-auto">
-  <!-- Header dell'articolo -->
   <header class="mb-12">
     <button 
       onclick={() => navigateTo('blog')}
@@ -31,8 +30,6 @@
       </p>
     </div>
   </header>
-
-  <!-- Contenuto dell'articolo -->
   <div class="prose prose-lg max-w-none space-y-8">
     <div class="bg-white/70 backdrop-blur-sm rounded-3xl shadow-xl border border-white/20 p-8">
       <h2 class="text-3xl font-bold mb-6 bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent">
@@ -127,7 +124,6 @@
     </div>
   </div>
 
-  <!-- Navigation footer -->
   <footer class="mt-16 pt-8 border-t border-gray-200">
     <div class="flex justify-between items-center">
       <button 

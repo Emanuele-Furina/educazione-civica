@@ -6,7 +6,6 @@
     </p>
   </div>
 
-  <!-- Overview -->
   <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
     <h2 class="text-2xl font-semibold mb-4">Panoramica del Percorso</h2>
     <p class="text-gray-600 mb-6">
@@ -32,21 +31,12 @@
         <p class="text-gray-600">2 organizzazioni</p>
       </div>
       
-      <!-- <div class="text-center">
-        <div class="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-3">
-          <span class="text-2xl">🎯</span>
-        </div>
-        <h3 class="font-semibold mb-2">Competenze</h3>
-        <p class="text-gray-600">15 acquisite</p>
-      </div> -->
     </div>
   </div>
 
-  <!-- Experiences -->
   <div class="space-y-8">
     <h2 class="text-2xl font-semibold">Esperienze Formative</h2>
     
-    <!-- Experience 1 -->
     <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
       <div class="flex items-start justify-between mb-4">
         <div>
@@ -58,23 +48,12 @@
       
       <p class="text-gray-600 mb-4">
         Sviluppo applicazioni con tecnologie .Net
-      </p>
-      
-      <!-- <div class="mb-4">
-        <h4 class="font-semibold mb-2">Competenze sviluppate:</h4>
-        <div class="flex flex-wrap gap-2">
-          <span class="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded">Comunicazione</span>
-          <span class="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded">Problem solving</span>
-          <span class="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded">Conoscenza PA</span>
-        </div>
-      </div> -->
-      
+      </p>    
       <div class="border-t pt-4">
         <p class="text-sm text-gray-500">Periodo: Giugno - Luglio 2023</p>
       </div>
     </div>
 
-    <!-- Experience 2 -->
     <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
       <div class="flex items-start justify-between mb-4">
         <div>
@@ -88,33 +67,10 @@
         Gestione della piattaforma e implementazione di nuove funzionalità
       </p>
       
-      <!-- <div class="mb-4">
-        <h4 class="font-semibold mb-2">Competenze sviluppate:</h4>
-        <div class="flex flex-wrap gap-2">
-          <span class="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded">Organizzazione eventi</span>
-          <span class="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded">Lavoro di squadra</span>
-          <span class="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded">Sensibilizzazione sociale</span>
-        </div>
-      </div> -->
       
       <div class="border-t pt-4">
         <p class="text-sm text-gray-500">Periodo: Settembre 2024 - Giugno 2025</p>
       </div>
     </div>
-
-  <!-- Reflection -->
-  <!-- <div class="bg-blue-50 rounded-lg p-8 mt-8">
-    <h2 class="text-2xl font-semibold mb-4">Riflessioni e Apprendimenti</h2>
-    <p class="text-gray-700 mb-4">
-      Il percorso PCTO ha rappresentato un'esperienza formativa fondamentale che ha permesso di:
-    </p>
-    <ul class="list-disc list-inside space-y-2 text-gray-700">
-      <li>Comprendere il funzionamento delle istituzioni pubbliche e del terzo settore</li>
-      <li>Sviluppare competenze trasversali essenziali per il mondo del lavoro</li>
-      <li>Acquisire una maggiore consapevolezza civica e sociale</li>
-      <li>Sperimentare l'importanza della partecipazione attiva nella comunità</li>
-      <li>Approfondire tematiche legate alla cittadinanza digitale e ai diritti online</li>
-    </ul>
-  </div> -->
   </div>
 </div>
