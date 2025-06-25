@@ -1,5 +1,6 @@
 <script>
   let { navigateTo } = $props();
+  import { base } from "$app/paths";
   const masterpieces = [
     {
       id: 1,
@@ -7,7 +8,7 @@
       type: "Informatica",
       description: "Creazione, programmazione e gestione di un server RP",
       date: "2023-2025",
-      image: "/images/fivem.png",
+      image: `${base}/images/fivem.png`,
       tags: ["Informatica", "Programmazione", "Giochi"],
       link: "fivem"
     },
@@ -17,7 +18,7 @@
       type: "Sociale",
       description: "Gestione della piattaforma Find My Tutor",
       date: "2024-2025",
-      image: "/images/find.jpg",
+      image: `${base}/images/find.jpg`,
       tags: ["Digitale","Innovazione"],
       link: "https://findmytutor.agnelli.it"
     }
