@@ -1,3 +1,7 @@
+<script>
+  import { base } from "$app/paths";
+</script>
+
 <div class="max-w-4xl mx-auto">
   <div class="text-center mb-16 relative">
     <div class="absolute inset-0 -z-10">
@@ -7,7 +11,7 @@
 
     <div class="relative">
       <div class="w-40 h-40 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-full mx-auto mb-8 flex items-center justify-center shadow-2xl shadow-blue-500/25 animate-bounce-slow overflow-hidden">
-        <img src="/images/me.jpg" alt="" class="w-full h-full object-cover rounded-full">
+        <img src="{base}/images/me.jpg" alt="" class="w-full h-full object-cover rounded-full">
       </div>
       
       <h1 class="text-5xl font-bold mb-4">
