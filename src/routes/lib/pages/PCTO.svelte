@@ -1,6 +1,12 @@
 <script>
+  /**
+     * @type {string | null}
+     */
   let expandedId = null;
   
+  /**
+     * @param {string} id
+     */
   function toggleExpand(id) {
     expandedId = expandedId === id ? null : id;
   }
@@ -15,14 +21,14 @@
   </div>
 
   <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-8 mb-8">
-    <h2 class="text-2xl font-semibold mb-4">Panoramica del Percorso</h2>
-    <p class="text-gray-600 mb-6">
+    <h2 class="text-2xl font-semibold mb-4 text-center">Panoramica del Percorso</h2>
+    <p class="text-gray-600 mb-6 text-center">
       Il percorso PCTO ha rappresentato un'opportunità fondamentale per sviluppare competenze trasversali 
       e acquisire una maggiore consapevolezza del mondo del lavoro, con particolare focus sui temi di 
       educazione civica e cittadinanza attiva.
     </p>
     
-    <div class="grid md:grid-cols-3 gap-6">
+    <div class="grid sm:grid-cols-2 gap-6 max-w-md mx-auto">
       <div class="text-center">
         <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-3">
           <span class="text-2xl">⏱️</span>
